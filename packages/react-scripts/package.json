@@ -1,6 +1,6 @@
 {
-  "name": "react-scripts",
-  "version": "1.0.14",
+  "name": "i-react-scripts",
+  "version": "1.0.19",
   "description": "Configuration and scripts for Create React App.",
   "repository": "facebookincubator/create-react-app",
   "license": "MIT",
@@ -13,12 +13,13 @@
   "files": [
     "bin",
     "config",
+    "custom",
     "scripts",
     "template",
     "utils"
   ],
   "bin": {
-    "react-scripts": "./bin/react-scripts.js"
+    "i-react-scripts": "./bin/i-react-scripts.js"
   },
   "dependencies": {
     "autoprefixer": "7.1.2",
@@ -27,6 +28,7 @@
     "babel-jest": "20.0.3",
     "babel-loader": "7.1.1",
     "babel-preset-react-app": "^3.0.3",
+    "babel-preset-stage-0": "^6.24.1",
     "babel-runtime": "6.26.0",
     "case-sensitive-paths-webpack-plugin": "2.1.1",
     "chalk": "1.1.3",
@@ -50,7 +52,11 @@
     "promise": "8.0.1",
     "react-dev-utils": "^4.1.0",
     "style-loader": "0.18.2",
+    "stylus": "^0.54.5",
+    "stylus-loader": "^3.0.1",
     "sw-precache-webpack-plugin": "0.11.4",
+    "ts-loader": "^2.3.7",
+    "typescript": "^2.5.3",
     "url-loader": "0.5.9",
     "webpack": "3.5.1",
     "webpack-dev-server": "2.8.2",
