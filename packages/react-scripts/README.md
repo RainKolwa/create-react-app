@@ -12,4 +12,3 @@ Please refer to its documentation:
 - [x] stylus
 - [x] babel-preset-stage-0
 - [ ] code splitting
-- [ ] typescript
